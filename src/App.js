@@ -7,6 +7,8 @@ import './App.css';
 import Movie from './Movies';
 import SingleLatestMovie from './SingleLatestMovie';
 import SingleLatestTvSeries from './SingleLatestTvSeries';
+import IMDBMovies from './IMDBMovies';
+import IMDBMovieid from './IMDBMovieid';
 
 const App = () => {
   return (
@@ -18,6 +20,8 @@ const App = () => {
       <Route path="movie/searchItems/:id" element={ <SingleMovie/> } />
       <Route path="movie/:id/" element={<SingleLatestMovie/>}/>
       <Route path='/tvseries/:id' element={<SingleLatestTvSeries/>}/>
+      <Route path='/topimdb' element={<IMDBMovies/>}/>
+      <Route path='/topimdb/:id' element={<IMDBMovieid/>}/>
       <Route path="*" element={ <Error/> } />
     </Routes>
     

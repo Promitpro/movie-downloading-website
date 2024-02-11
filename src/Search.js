@@ -74,7 +74,7 @@ const Search = () => {
                                     <details>
                                         <summary>Special Categories</summary>
                                         <ul className="p-2 z-50">
-                                            <li><a>IMDb Top 250 Movies</a></li>
+                                            <li><a>IMDb Top Movies</a></li>
                                             <li><a>Satyajit Ray Films</a></li>
                                             <li><a>Oscar Winning Movies</a></li>
                                         </ul>

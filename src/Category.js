@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Category = () => {
     return (
         <div>
             <h2 className='text-lg font-medium ml-4 mt-12 '>Categories</h2>
             <ul className='w-2/3 mt-4 text-slate-500 ml-8 text-sm'>
-                <li className='py-3 hover:cursor-pointer hover:opacity-50'><a>❯ IMDb Top 250 Movies</a></li><hr className='opacity-50' />
+                <Link to='/topimdb'><li className='py-3 hover:cursor-pointer hover:opacity-50'><a>❯ IMDb Top Movies</a></li><hr className='opacity-50' /></Link>
                 <li className='py-3 hover:cursor-pointer hover:opacity-50'><a>❯ Satyajit Ray Films</a></li><hr className='opacity-50' />
                 <li className='py-3 hover:cursor-pointer hover:opacity-50'><a>❯ Oscar Winning Movies</a></li><hr className='opacity-50' />
                 <li className='py-3 hover:cursor-pointer hover:opacity-50'><a>❯ DC, Marvet, Superhero movies</a></li><hr className='opacity-50' />
