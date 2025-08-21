@@ -14,6 +14,9 @@ const Banner = () => {
                     <div className="absolute bottom-0 right-0 text-red-500 italic text-center">
                         <button className="bg-red-700 p-1 font-medium text-white">BEST OF 2023</button>
                     </div>
+                    <div className="absolute bottom-0 left-0 text-red-500 italic text-center">
+                        <a href="https://drive.google.com/file/d/0B0d0i-0KpQimNzFhdktfU2N5S3M/edit?resourcekey=0-GazMvIKi2tFaUvtfnF4dRQ"><button className="bg-red-700 p-1 font-medium text-white">DOWNLOAD</button></a>
+                    </div>
 
                 </div>
                 <div id="item2" className="carousel-item w-full relative">
@@ -21,11 +24,17 @@ const Banner = () => {
                     <div className="absolute bottom-0 right-0 text-red-500 italic text-center">
                         <button className="bg-red-700 p-1 font-medium text-white">BEST OF 2023</button>
                     </div>
+                    <div className="absolute bottom-0 left-0 text-red-500 italic text-center">
+                        <button className="bg-red-700 p-1 font-medium text-white">DOWNLOAD</button>
+                    </div>
                 </div>
                 <div id="item3" className="carousel-item w-full relative">
                     <img src={img3} className="w-full max-h-96" alt="Banner 3" />
                     <div className="absolute bottom-0 right-0 text-red-500 italic text-center">
                         <button className="bg-red-700 p-1 font-medium text-white">BEST OF 2023</button>
+                    </div>
+                    <div className="absolute bottom-0 left-0 text-red-500 italic text-center">
+                        <button className="bg-red-700 p-1 font-medium text-white">DOWNLOAD</button>
                     </div>
                 </div>
                 <div id="item4" className="carousel-item w-full relative">
@@ -33,11 +42,17 @@ const Banner = () => {
                     <div className="absolute bottom-0 right-0 text-red-500 italic text-center">
                         <button className="bg-red-700 p-1 font-medium text-white">BEST OF 2023</button>
                     </div>
+                    <div className="absolute bottom-0 left-0 text-red-500 italic text-center">
+                        <button className="bg-red-700 p-1 font-medium text-white">DOWNLOAD</button>
+                    </div>
                 </div>
                 <div id="item5" className="carousel-item w-full relative">
                     <img src={img1} className="w-full max-h-96" alt="Banner 5" />
                     <div className="absolute bottom-0 right-0 text-red-500 italic text-center">
                         <button className="bg-red-700 p-1 font-medium text-white">BEST OF 2023</button>
+                    </div>
+                    <div className="absolute bottom-0 left-0 text-red-500 italic text-center">
+                        <button className="bg-red-700 p-1 font-medium text-white">DOWNLOAD</button>
                     </div>
                 </div>
             </div>
